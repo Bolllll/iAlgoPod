@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		23F0D7615CECC569881849454EF2A554 /* Pods-iAlgoPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0407198A6BD3865B67C1A0DB3B9D91D1 /* Pods-iAlgoPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26F4C2FFA7F36B47317FCAAFD848A11E /* Fibnacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD463E172483495D844BBECA28F978 /* Fibnacci.swift */; };
+		28BDC0BA29D45D8000EAC339 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BDC0B929D45D8000EAC339 /* Strings.swift */; };
 		6DC092AEAA2C65380B92C43D309D93BF /* Pods-iAlgoPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F7FCD6365626F43D38F2282A0940D0 /* Pods-iAlgoPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8449F2ED422172E672B82B94BA5573B9 /* Pods-iAlgoPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B91F89A63EC8F366B33808887608EA31 /* Pods-iAlgoPod_Example-dummy.m */; };
 		AAA7634C68EB1646953A056938A23DFF /* iAlgoPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AEFAB103DCC7032D41900DE6372965C /* iAlgoPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,6 +47,7 @@
 		215D19530AC8A59CD2C27712E2998644 /* Pods-iAlgoPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iAlgoPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2463B3CF59DD386B7343CA64EA3F494F /* iAlgoPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iAlgoPod.modulemap; sourceTree = "<group>"; };
 		263B14D8C50C36706DB3AB1EAE885D80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		28BDC0B929D45D8000EAC339 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		2F4C452B551C7FBC1E54DAE2D4DFC00D /* iAlgoPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = iAlgoPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3A88F1BBCB9E60F596829BE64DE06DE0 /* iAlgoPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iAlgoPod-prefix.pch"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				19BD463E172483495D844BBECA28F978 /* Fibnacci.swift */,
 				75F79AA8206AB5DFB9E8A62E9018A359 /* Pod */,
 				838413B77CC6E5CB6CF903A822801EFE /* Support Files */,
+				28BDC0B929D45D8000EAC339 /* Strings.swift */,
 			);
 			name = iAlgoPod;
 			path = ../..;
@@ -384,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFC1715EC5D444E6B439D59ED0A84129 /* iAlgoPod-dummy.m in Sources */,
+				28BDC0BA29D45D8000EAC339 /* Strings.swift in Sources */,
 				26F4C2FFA7F36B47317FCAAFD848A11E /* Fibnacci.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

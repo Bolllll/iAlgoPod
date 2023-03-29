@@ -15,7 +15,7 @@ public struct Algo {
 @objcMembers
 public class AlgoNS: NSObject {
     public override init() {
-        
+        super.init()
     }
     
     public func fibonacci(_ n: Int) -> Int {

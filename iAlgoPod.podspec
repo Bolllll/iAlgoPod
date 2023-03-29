@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iAlgoPod'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of iAlgoPod.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '14.0'
 
   s.source_files = 'iAlgoPod/Classes/**/*'
+  
+  #
+  # s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  # s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   # s.resource_bundles = {
   #   'iAlgoPod' => ['iAlgoPod/Assets/*.png']

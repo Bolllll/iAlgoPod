@@ -1,0 +1,6 @@
+framework module iAlgoPod {
+  umbrella header "iAlgoPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

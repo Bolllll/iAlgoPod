@@ -1,0 +1,16 @@
+PODS:
+  - iAlgoPod (0.1.0)
+
+DEPENDENCIES:
+  - iAlgoPod (from `../`)
+
+EXTERNAL SOURCES:
+  iAlgoPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iAlgoPod: 3e060bf27e90e89a42bbf342977c8076a1ce528f
+
+PODFILE CHECKSUM: 862202d921c21daa2c38638019c69fad2c78b438
+
+COCOAPODS: 1.9.1
